@@ -1,0 +1,139 @@
+.telegramGroup1{
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 30px;
+        position: fixed;
+        top: 67%;
+        right: 4%;
+        font-family: "Acme", sans-serif;
+        -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+                animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+        z-index: 2;
+      }
+      @-webkit-keyframes reveal {
+        80% {
+          letter-spacing: 8px;
+        }
+        100% {
+          background-size: 300% 300%;
+        }
+      }
+      @keyframes reveal {
+        80% {
+          letter-spacing: 8px;
+        }
+        100% {
+          background-size: 300% 300%;
+        }
+      }
+      @-webkit-keyframes glow {
+        40% {
+          text-shadow: 0 0 8px rgb(255, 255, 255);
+        }
+      }
+      @keyframes glow {
+        40% {
+          text-shadow: 0 0 8px #fff;
+        }
+      }
+
+/* BOTÓN COMPLETO */
+.TELEGRAM{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    z-index: 100;
+  }
+
+.telegram{
+    z-index: 100;
+
+}
+
+    .logoTelegram{
+        width: 7vw;
+        min-width: 40px;
+        color: white;
+        position: fixed;
+        top: 72%;
+        right: 5%;
+        text-decoration: none;
+    }
+
+    .logoTelegram:hover{
+        filter: drop-shadow(-2px 2px 15px rgb(255, 255, 255));
+    }
+
+    .telegramGroup2 {
+        background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 30px;
+        position: fixed;
+        top: 85%;
+        right: 5%;
+        font-family: "Acme", sans-serif;
+        -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+                animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+      }
+      @-webkit-keyframes reveal {
+        80% {
+          letter-spacing: 8px;
+        }
+        100% {
+          background-size: 300% 300%;
+        }
+      }
+      @keyframes reveal {
+        80% {
+          letter-spacing: 8px;
+        }
+        100% {
+          background-size: 300% 300%;
+        }
+      }
+      @-webkit-keyframes glow {
+        40% {
+          text-shadow: 0 0 8px #fff;
+        }
+      }
+      @keyframes glow {
+        40% {
+          text-shadow: 0 0 8px #fff;
+        }
+      }
+
+
+      .exit{
+        display: none;
+        width: 2%;
+        min-width: 25px;
+        position: fixed;
+        top: 60%;
+        right: 4%;
+        cursor: pointer;
+        z-index: 2;
+    }
+    
+
+@media (min-width: 0px) and (max-width: 990px){
+    .exit{
+      top:65%;
+    }
+
+    .telegramGroup1{
+      top:68.5%;
+      font-size: 4vw;
+    }
+
+    .telegramGroup2{
+      top:77%;
+      font-size: 4vw;
+    }
+
+    .exit{
+      width: 3vw;
+      font-size: 3vw;
+  }
+}

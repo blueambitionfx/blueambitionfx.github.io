@@ -1,0 +1,126 @@
+@media (min-width: 768px) and (max-width: 900px){    
+
+    header{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: nowrap;
+        padding-right: 0%;
+    }
+    
+        #header > header > a{
+            margin-right: 0% !important;
+        }
+    
+    
+    .d-flex {
+        display: flex!important;
+        align-content: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+   }
+}
+
+    
+@media (min-width: 250px) and (max-width: 700px){
+
+    .nav-pills {
+        --bs-nav-link-padding-x: 0.38rem !important;
+        --bs-nav-link-padding-y: 0.25rem !important;
+        font-size: 13.05px;
+    }
+
+    h1{
+        font-size: 20px !important;
+    }
+
+    #footer > footer{
+        margin-bottom: 0% !important;
+        padding-bottom: 0% !important;
+    }
+}
+
+        /* GALAXY FOLD (MUY DIFERENTE AL TAMAÑO GENERAL)*/
+
+
+    /* IPHONE SE */
+    
+    /* @media (min-width: 374px) and (max-width: 413px){
+
+        .nav-pills {
+            --bs-nav-link-padding-x: 0.38rem !important;
+            --bs-nav-link-padding-y: 0.25rem !important;
+            font-size: 13.05px;
+        }
+    } */
+
+    /* IPHONE XR */
+
+    /* @media (min-width: 414px) and (max-width: 450px){
+
+        .nav-pills {
+            --bs-nav-link-padding-x: 0.38rem !important;
+            --bs-nav-link-padding-y: 0.25rem !important;
+            font-size: 13.05px;
+        }
+    } */
+
+
+    /* 901px 1265px */
+
+
+/* CORRECIÓN ERRORES GENERALES */
+
+@media (min-width: 320px) and (max-width: 767px){
+
+    #nav{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 264px) and (max-width: 319px){
+
+    #nav{
+        width: 100%;
+        justify-content: center;
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 250px) and (max-width: 263px){
+
+    #nav{
+        width: 100%;
+        justify-content: center;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 207px) and (max-width: 249px){
+    
+    #nav{
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 169px) and (max-width: 206px){
+
+    #logo{
+        width: 30px;
+    }
+
+    #nombre{
+        font-size: 20px !important;
+    }
+
+    #nav{
+        width: 80%;
+        font-size: 14px;
+    }
+}

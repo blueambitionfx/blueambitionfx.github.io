@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+
+    <div id="header" class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img id="logo" src="images/logo.png" class="img-fuid">
+    
+            <span id="nombre" class="fs-4">Blue Ambition</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link">Cursos</a></li> -->
+            <li class="nav-item"><a href="#" class="nav-link">Recomendaciones</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <div class="div-form">
+        <form>
+          <h1>FORMULARIO DE CONTACTO</h1>
+          <label>Nombre:</label>
+          <input type="text" required placeholder="Juan" autofocus autocomplete="" maxlength="20">
+          <br><br>
+          <label>Apellidos:</label>
+          <input type="text" required placeholder="Cuesta" maxlength="40" autocomplete="">
+          <br><br>
+          <label>Correo electrónico:</label>
+          <input type="email" required placeholder="juancuesta@gmail.com" maxlength="60">
+          <br><br>
+          <label>Escribe aquí tu mensaje:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <input class="submit" type="submit">
+        </form>
+      
+      <!-- </div>
+      <div class="div-h1">
+        <h1>CONTACTA <br/> CON NOSOTROS</h1>
+      </div> -->
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div id="footer" class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; Blue Ambition LLC <span id="year"></span></p>
+        
+      </footer>
+    </div>
+</body>
+</html>
