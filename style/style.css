@@ -212,5 +212,13 @@ header>.nav{
 
 p{
     text-align:center;
+    font-size: 1.7vw;
 }
 
+.textFooter{
+    font-family: Acme;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}

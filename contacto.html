@@ -12,21 +12,25 @@
 <body>
 
     <div id="header" class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img id="logo" src="images/logo.png" class="img-fuid">
-    
-            <span id="nombre" class="fs-4">Blue Ambition</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
-            <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Inicio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            <!-- <li class="nav-item"><a href="#" class="nav-link">Cursos</a></li> -->
-            <li class="nav-item"><a href="#" class="nav-link">Recomendaciones</a></li>
-          </ul>
-        </header>
+      <header class="d-flex flex-wrap justify-content-center align-items-center py-3 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img id="logo" src="images/logo.png" class="img-fuid">
+  
+          <span id="nombre" class="fs-1">Blue Ambition</span>
+        </a>
+  
+        <ul id="nav" class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+          <li class="nav-item"><a href="http://localhost/wordpress/" class="nav-link">Blog</a></li>
+          <!-- <li class="nav-item"><a href="cursos.html" class="nav-link">Cursos</a></li> -->
+          <li class="nav-item"><a href="Sitio en construcción/sitioEnConstruccion.html" target="_blank"  class="nav-link">Recomendaciones</a></li>
+          <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+          <img id="sol" class="sol" src="images/sol.png" alt="Modo día" onclick="darkMode()"></img>
+          <img id="luna" class="luna" src="images/luna.png" alt="Modo noche" onclick="darkMode()"></img>
+        </ul>
+  
+        
+      </header>
       </div>
 
       <div class="div-form">
@@ -55,13 +59,13 @@
     <div class="b-example-divider"></div>
 
     <div id="footer" class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      <footer id="footer2">
+        <ul class="nav justify-content-center align-items-center border-bottom mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="http://localhost/wordpress/" class="nav-link px-2 text-muted">Blog</a></li>
+          <li class="nav-item"><a href="Sitio en construcción/sitioEnConstruccion.html" class="nav-link px-2 text-muted">Recomendaciones</a></li>
+          <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li> -->
         </ul>
         <p class="text-center text-muted">&copy; Blue Ambition LLC <span id="year"></span></p>
         
