@@ -126,6 +126,11 @@
 }
 
 @media (min-width: 0px) and (max-width: 900px){    
+    
+    .div-text{
+        width: 60% !important;
+    }
+    
     p{  
         font-size: 3.5vw;
     }
@@ -136,6 +141,6 @@
     }
 
     .textFooter{
-       font-size: 3vw;
+       font-size: 3.5vw;
     }
 }
