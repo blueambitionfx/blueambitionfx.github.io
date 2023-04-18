@@ -78,7 +78,7 @@ header>.nav{
     background-color:  rgb(21, 129, 230);
     border-radius: 20px;
     border: solid 2px black;
-    padding-top: 5%;
+    padding-top: 2%;
   }
   
   h1 {
@@ -86,7 +86,6 @@ header>.nav{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold !important;
     color: #002868 !important;
-    margin-top: -20% !important;
   }
   
   label {
@@ -105,6 +104,7 @@ header>.nav{
     font-size: 30px !important;
     margin: 0 auto;
     padding: 1%;
+    padding-left: 4%;
     border-radius: 10px;
     border: solid black 2px;
   }
@@ -125,7 +125,8 @@ header>.nav{
     height: 5%;
     font-size: 30px !important;
     margin: 0 auto;
-    margin-top: 8%;
+    margin-top: 2%;
+    margin-bottom: 4%;
     background-color: #00a7fa;
     color: white;
     border-radius: 10px;
@@ -241,6 +242,66 @@ p{
     background-color: black;
   }
 }
+
+@media (max-width: 576px) {
+  form {
+    width: 90%;
+    height: 100%;
+  }
+} 
+
+  @media (min-width: 0px) and (max-width: 900px){    
+
+
+    html,body{
+      height: 70%;
+    }
+
+    #nav{
+      width: 100%;
+      justify-content: center;
+    } 
+
+    form {
+      width: 70%;
+      height: 75%;
+    }
+
+    h1{
+      font-size: 4vw !important;
+    }
+
+    label{
+     font-size: 4vw;
+    }
+
+    input[type="text"], input[type="email"]{
+      height: 6% !important;
+      font-size: 15px !important;
+    }
+
+    input[type="submit"]{
+      height: 4% !important;
+      font-size: 10px !important;
+    }
+ 
+    .div-text{
+        width: 60% !important;
+    }
+    
+    p{  
+        font-size: 3.5vw;
+    }
+
+    .container{
+        --bs-gutter-x: 0% !important;
+        font-size: 2vw;
+    }
+
+    .textFooter{
+      font-size: 3.5vw;
+    }
+  }
 
 
 

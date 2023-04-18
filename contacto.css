@@ -161,7 +161,13 @@ header>.nav{
       height: 100%;
     }
   }
-  
+
+    @media (min-width: 0px) and (max-width: 750px){
+      form{
+        width: 50% !important;
+        height: 60% !important;
+      }
+    }
 
 
 
