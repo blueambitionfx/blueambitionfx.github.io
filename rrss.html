@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRSS</title>
+    <link rel="stylesheet" href="style/rrss.css">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <script src="funciones/modoOscuro.js"></script>
+
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Paytone+One&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div id="header" class="container">
+        <header class="d-flex flex-wrap justify-content-center align-items-center py-3 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img id="logo" src="images/logo.png" class="img-fuid">
+    
+            <span id="nombre" class="fs-1">Blue Ambition</span>
+          </a>
+    
+          <ul id="nav" class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Inicio</a></li>
+            <li class="nav-item"><a href="http://localhost/wordpress/" class="nav-link">Blog</a></li>
+            <!-- <li class="nav-item"><a href="cursos.html" class="nav-link">Cursos</a></li> -->
+            <li class="nav-item"><a href="Sitio en construcción/sitioEnConstruccion.html" target="_blank"  class="nav-link">Recomendaciones</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+            <img id="sol" class="sol" src="images/sol.png" alt="Modo día" onclick="darkMode()"></img>
+            <img id="luna" class="luna" src="images/luna.png" alt="Modo noche" onclick="darkMode()"></img>
+          </ul>          
+        </header>
+        </div>
+
+        <h1>SIGUENOS EN NUESTRAS REDES SOCIALES</h1>
+
+        <div id="footer" class="container">
+          <footer id="footer2">
+            <ul class="nav justify-content-center align-items-center border-bottom mb-3">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+              <li class="nav-item"><a href="http://localhost/wordpress/" class="nav-link px-2 text-muted">Blog</a></li>
+              <li class="nav-item"><a href="Sitio en construcción/sitioEnConstruccion.html" class="nav-link px-2 text-muted">Recomendaciones</a></li>
+              <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+              <li class="nav-item"><a href="rrss.html" class="nav-link px-2 text-muted">RRSS</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Créditos</a></li>
+            </ul>
+            <p class="text-center text-muted textFooter">&copy; Blue Ambition LLC <span id="year"></span></p>
+            
+          </footer>
+        </div>
+</body>
+</html>
